@@ -10,14 +10,5 @@ A deep learning model to classify 7 emotional states from facial images in the M
 - Generates training progress plots (accuracy/loss curves)
 
 ## 📁 Dataset Structure
-'''
-MMAFEDB/
-├── train/
-│ ├── anger/ # 4,500 images per class
-│ ├── fear/ # ...
-│ └── ... # 7 total classes
-└── test/
-├── anger/ # 700 images per class
-└── ... # 7 total classes
-'''
+
 **Total:** 31,500 training + 4,900 testing images
