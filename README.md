@@ -1,3 +1,21 @@
-# FACIAL-EXPRESSION-Recognition
--> Facial Eexpression using CNN-LSTM in MMA Dataset 
-->A neural network model is proposed for predicting facial expressions from the MMA dataset, classifying 7 emotional states. It leverages a combination of Convolutional Neural Network (CNN) and Long Short Term Memory (LSTM) layers. The CNN extracts key features from images, while the LSTM classifies facial expressions. This approach is effective because CNNs excel at capturing image features. The dataset includes three directories (train, test, validation), with seven sub-directories for each facial expression category. The training set contains 17,366 images, the test set has approximately 92,926 images, and the validation set includes 17,356 instances. The validation set helps determine the best-performing model for this dataset.
+# Facial Expression Recognition (CNN-LSTM)
+
+A deep learning model to classify 7 emotional states from facial images in the MMA dataset, using a hybrid CNN-LSTM architecture.
+
+## 🚀 Features
+- Hybrid **CNN-LSTM** architecture for spatiotemporal feature learning
+- Processes **48x48x3 RGB images** with normalization
+- Tracks multiple metrics: **Accuracy, Precision, Recall, AUC**
+- Includes **Batch Normalization** and **Dropout** for regularization
+- Generates training progress plots (accuracy/loss curves)
+
+## 📁 Dataset Structure
+MMAFEDB/
+├── train/
+│ ├── anger/ # 4,500 images per class
+│ ├── fear/ # ...
+│ └── ... # 7 total classes
+└── test/
+├── anger/ # 700 images per class
+└── ... # 7 total classes
+**Total:** 31,500 training + 4,900 testing images
